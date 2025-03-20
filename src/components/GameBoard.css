@@ -1,0 +1,28 @@
+.game-container {
+    text-align: center;
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .restart-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .restart-btn:hover {
+    background: #ffffff;
+    color: blue;
+  }
